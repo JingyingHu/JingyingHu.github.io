@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-  <p>640 Oval Dr</p>
-  <p>West Lafayette, IN</p>
-  <p>Email: hu880@purdue.edu</p>
+    <p>640 Oval Dr</p>
+    <p>West Lafayette, IN</p>
+    <p>Email: hu880@purdue.edu</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 
