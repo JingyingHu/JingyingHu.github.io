@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: |
-    <div style="font-size: 1.6rem; margin-top: 0.6rem;">
+    <div style="font-size: 1.8rem; margin-top: 0.6rem; display: flex; gap: 0.55rem; justify-content: center;">
       <a href="https://github.com/JingyingHu" title="GitHub"><i class="fa-brands fa-github"></i></a>
       <a href="https://www.linkedin.com/in/jingyinghu/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
       <a href="https://scholar.google.com/citations?user=APa8s6gAAAAJ&hl=en&authuser=1" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
