@@ -8,14 +8,17 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>640 Oval Dr</p>
-    <p>West Lafayette, IN</p>
-    <p>Email: hu880@purdue.edu</p>
+  more_info: |
+    <div style="font-size: 1.6rem; margin-top: 0.6rem;">
+      <a href="https://github.com/JingyingHu" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/jingyinghu/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://scholar.google.com/citations?user=APa8s6gAAAAJ&hl=en&authuser=1" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.researchgate.net/profile/Jingying_Hu3?ev=hdr_xprf" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page if marked as "selected={true}"
 
 announcements:
   enabled: false # includes a list of news items
