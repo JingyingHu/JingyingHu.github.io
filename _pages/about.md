@@ -9,7 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: |
-    <div style="font-size: 1.8rem; margin-top: 0.6rem; display: flex; gap: 0.55rem; justify-content: center;">
+    <div style="font-size: 2.5rem; margin-top: 0.8rem; display: flex; gap: 0.55rem; justify-content: center;">
+      <a href="mailto:hu880@purdue.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://github.com/JingyingHu" title="GitHub"><i class="fa-brands fa-github"></i></a>
       <a href="https://www.linkedin.com/in/jingyinghu/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
       <a href="https://scholar.google.com/citations?user=APa8s6gAAAAJ&hl=en&authuser=1" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
@@ -36,4 +37,5 @@ Hi! I'm a fourth-year Ph.D. student in Linguistics at Purdue University, where I
 My research combines psycholinguistic experiments, computational modeling, and natural language processing to better understand how people comprehend and produce language. I am particularly interested in morphosyntactic processing, individual differences, syntactic alternations, and the cognitive mechanisms that underlie real-time language processing. My dissertation investigates English relative clause extraposition from a computational perspective.
 
 I am fascinated by the interplay between human language and language models. My work explores how language models can support linguistic research and language education, while linguistic theories can, in turn, help us better understand, evaluate, and improve language models. My recent work includes developing robust, interpretable, and reproducible LLM-derived metrics for second language writing assessment in collaboration with [Dr. Yan Cong](https://www.cla.purdue.edu/directory/profiles/yan-cong.html), and investigating how large audio language models use prosodic and semantic cues to resolve syntactic ambiguity in collaboration with [Dr. Sayed Issa](https://www.cla.purdue.edu/directory/profiles/elsayed-issa.html) in the [Computational Linguistics at Purdue (CL@P) Lab](https://www.cla.purdue.edu/research/clai/index.html).
+
 
