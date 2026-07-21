@@ -32,8 +32,8 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
+      <div class="collapse navbar-collapse text-right" id="navbarNav" style="justify-content: flex-end;">
+        <ul class="navbar-nav ml-auto ms-auto flex-nowrap" style="margin-left: auto;">
           {% for page in site.pages %}
             {% if page.permalink == '/' %}
               {% assign about_title = page.title %}
