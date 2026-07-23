@@ -36,17 +36,14 @@ latest_posts:
   .profile {
     max-width: 270px;
   }
-
   .profile img {
     width: 240px !important;
     max-width: 100%;
   }
-
   @media (max-width: 768px) {
     .profile {
       max-width: 210px;
     }
-
     .profile img {
       width: 190px !important;
     }
