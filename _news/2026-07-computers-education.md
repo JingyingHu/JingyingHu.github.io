@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, [*LLM-derived metrics in second language writing assessment: An explainable AI approach*](https://www.sciencedirect.com/science/article/pii/S0360131526001600), was accepted by *Computers & Education*.
+Our paper, [_LLM-derived metrics in second language writing assessment: An explainable AI approach_](https://www.sciencedirect.com/science/article/pii/S0360131526001600), was accepted by _Computers & Education_.
