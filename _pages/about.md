@@ -37,7 +37,7 @@ latest_posts:
     max-width: 270px;
   }
   .profile img {
-    width: 220px !important;
+    width: 240px !important;
     max-width: 100%;
   }
   @media (max-width: 768px) {
@@ -45,7 +45,7 @@ latest_posts:
       max-width: 210px;
     }
     .profile img {
-      width: 180px !important;
+      width: 190px !important;
     }
   }
 </style>
