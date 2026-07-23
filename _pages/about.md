@@ -32,24 +32,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<style>
-  .profile {
-    max-width: 270px;
-  }
-  .profile img {
-    width: 240px !important;
-    max-width: 100%;
-  }
-  @media (max-width: 768px) {
-    .profile {
-      max-width: 210px;
-    }
-    .profile img {
-      width: 190px !important;
-    }
-  }
-</style>
-
 
 Hi, I'm a fourth-year Ph.D. student in Linguistics at Purdue University, with joint M.S. training in Statistics and Computer Science. I am fortunate to be advised by [Dr. Elaine J. Francis](https://www.cla.purdue.edu/directory/profiles/elaine-francis.html) in the [Purdue Experimental Linguistics (ExLing) Lab](https://cla.purdue.edu/english/francislab/) and [Dr. Yan Cong](https://www.cla.purdue.edu/directory/profiles/yan-cong.html) in the [Computation and Linguistic Meaning (CALM) Lab](https://yancong222.github.io/).
 
