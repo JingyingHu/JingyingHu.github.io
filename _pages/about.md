@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
 subtitle:
 
@@ -8,8 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
+  image_width: 220px
   more_info: |
-    <div style="font-size: 2.5rem; margin-top: 0.8rem; display: flex; gap: 0.55rem; justify-content: center;">
+    <div style="font-size: 2.3rem; margin-top: 0.8rem; display: flex; gap: 0.55rem; justify-content: center;">
       <a href="mailto:hu880@purdue.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://github.com/JingyingHu" title="GitHub"><i class="fa-brands fa-github"></i></a>
       <a href="https://www.linkedin.com/in/jingyinghu/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
