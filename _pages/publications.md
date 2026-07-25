@@ -35,11 +35,24 @@ nav_order: 2
     margin-bottom: 2.4rem;
   }
 
+  .bibliography .title {
+    font-weight: 600;
+  }
+
   .bibliography .abstract:not(.btn),
   .bibliography .bibtex:not(.btn) {
     border: 1px dashed var(--global-text-color);
+    font-size: 0.9rem;
+    line-height: 1.55;
     margin-top: 0.7rem;
     padding: 1rem 1.15rem;
+  }
+
+  .bibliography .links a.bibtex,
+  .bibliography .links a[href*="sciencedirect.com"],
+  .bibliography .links a[href*="aclanthology.org/2025.cmcl-1.22/"]:not([href$=".pdf"]),
+  .bibliography .links a[href*="frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1133003/full"] {
+    display: none;
   }
 </style>
 
@@ -49,7 +62,7 @@ nav_order: 2
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".bibliography a.abstract, .bibliography a.bibtex").forEach(function (button) {
+    document.querySelectorAll(".bibliography a.abstract").forEach(function (button) {
       button.addEventListener("click", function (event) {
         event.preventDefault();
         var target = button.parentElement.nextElementSibling;

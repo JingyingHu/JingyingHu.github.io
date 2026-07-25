@@ -5,16 +5,17 @@
   abbr          = {C\&E},
   bibtex_show  = {true},
   selected     = {true},
-  title        = {LLM-derived metrics in second language writing assessment: An explainable AI approach},
+  title        = {LLM-derived metrics in second language writing assessment: an explainable AI approach},
   author       = {Hu, Jingying and Cong, Yan},
   journal      = {Computers \& Education},
   year         = {2026},
   pages        = {105721},
   publisher    = {Elsevier},
-  abstract     = {This study uses model-internal LLM representations, including surprisal, perplexity, and embedding-based similarity, as interpretable metrics for assessing second language writing development.},
+  doi          = {10.1016/j.compedu.2026.105721},
+  abstract     = {Large language models (LLMs) are increasingly used in educational technology for automated writing assessment, yet most applications rely on prompt-based scoring and feedback generation, which often lack transparency, reproducibility, and interpretability. This study investigates whether model-internal LLM representations can provide interpretable and reproducible metrics for second language (L2) writing assessment. We derived surprisal and perplexity from next-token prediction to quantify linguistic predictability and embedding-based similarity to measure semantic coherence across sentences. These metrics were computed at the token, sentence, and discourse levels using three pretrained Chinese language models and evaluated on 1196 essays written by Chinese L2 learners across four proficiency levels. Their relationships with 11 established linguistic measures of fluency, lexical sophistication, phraseological complexity, and syntactic complexity were also examined. Results showed that surprisal and perplexity generally decreased with proficiency for the two Traditional Chinese-focused models, indicating greater linguistic predictability in more proficient writing, whereas the multilingual model showed weaker sensitivity. Embedding-based similarity increased with proficiency, reflecting stronger semantic coherence. Combining LLM-derived metrics with classical linguistic features improved proficiency classification and prediction beyond either feature set alone. Correlation and qualitative analyses further demonstrated that the proposed metrics capture complementary aspects of writing while revealing conditions under which their interpretations become less reliable. These findings demonstrate the value of interpretable, model-derived metrics for transparent, reproducible, and scalable AI-supported L2 writing assessment, particularly for underrepresented learner populations and lower-resource languages.},
   preview      = {pub-hu-2026-llm.png},
   html         = {https://www.sciencedirect.com/science/article/pii/S0360131526001600},
-  code         = {https://osf.io/qfk2h/overview?view_only=dd1990591c164d3588aefd709115951c}
+  code         = {https://doi.org/10.17605/OSF.IO/QFK2H}
 }
 
 @article{cong2026aging,
@@ -29,8 +30,9 @@
   pages        = {100203},
   publisher    = {Elsevier},
   doi          = {10.1016/j.nlp.2026.100203},
-  abstract     = {This article examines whether linguistic biomarkers and LLM-derived measures can detect probable cognitive impairment from unstructured social media text.},
+  abstract     = {Recent research suggests that linguistic biomarkers are effective in detecting probable cognitive impairment (PCI). This study extends this line of research by examining whether linguistic markers, which have been previously validated in structured, controlled clinical settings, are sufficiently robust to effectively detect PCI in unstructured, spontaneous, everyday social media posts. We hypothesized that classic linguistic markers, along with novel large language model (LLM)-derived measures, can robustly, reliably differentiate PCI from healthy controls (HC) based on social media posts. Both clinical interviews and social media posts were preprocessed to extract relevant content. We constructed natural language processing (NLP) pipelines to compute linguistic markers, and used LLMs to derive text similarity and surprisal metrics. Machine learning (ML) methods with explicit linguistic features were then used for predictive modeling. Additionally, we prompted LLM without explicit linguistic features to infer and detect PCI using zero-shot method. ML classifiers, especially gradient boosting, achieved high precision, recall, and overall accuracy in distinguishing PCI from HC across both data types (i.e., clinical interviews and social media posts). We also found that LLM-derived features and prompting methods provided moderate additional insights, and classic linguistic markers remained the most influential predictors. These findings demonstrated a reliable approach to transfer linguistic markers from clinical, controlled settings to spontaneous, unstructured social media posts. This study adds to the growing evidence that robust, AI-enhanced linguistic markers can advance early, noninvasive detection for cognitive decline in everyday language settings of social media posts.},
   preview      = {pub-cong-2026-aging.png},
+  code         = {https://github.com/yancong222/NLP_text_essentials},
   html         = {https://www.sciencedirect.com/science/article/pii/S2949719126000075}
 }
 
@@ -46,7 +48,7 @@
   address      = {Albuquerque, New Mexico, USA},
   publisher    = {Association for Computational Linguistics},
   doi          = {10.18653/v1/2025.cmcl-1.22},
-  abstract     = {This paper evaluates LLM-surprisal as a robust and interpretable measure for modeling Chinese second language writing development across proficiency levels.},
+  abstract     = {LLM-surprisal is a computational measure of how unexpected a word or character is given the preceding context, as estimated by large language models (LLMs). This study investigated the effectiveness of LLM-surprisal in modeling second language (L2) writing development, focusing on Chinese L2 writing as a case to test its cross-linguistic generalizability. We selected three types of LLMs with different pretraining settings: a multilingual model trained on various languages, a Chinese-general model trained on both Simplified and Traditional Chinese, and a Traditional-Chinese-specific model. This comparison allowed us to explore how model architecture and training data affect LLM-surprisal estimates of learners’ essays written in Traditional Chinese, which in turn influence the modeling of L2 proficiency and development. We also correlated LLM-surprisals with 16 classic linguistic complexity indices (e.g., character sophistication, lexical diversity, syntactic complexity, and discourse coherence) to evaluate its interpretability and validity as a measure of L2 writing assessment. Our findings demonstrate the potential of LLM-surprisal as a robust, interpretable, cross-linguistically applicable metric for automatic writing assessment and contribute to bridging computational and linguistic approaches in understanding and modeling L2 writing development.},
   preview      = {pub-hu-2025-cmcl.png},
   html         = {https://aclanthology.org/2025.cmcl-1.22/},
   pdf          = {https://aclanthology.org/2025.cmcl-1.22.pdf},
@@ -64,7 +66,7 @@
   year         = {2023},
   pages        = {1133003},
   doi          = {10.3389/fpsyg.2023.1133003},
-  abstract     = {This study investigates how metacognitive monitoring predicts second language Chinese audiovisual reading comprehension, with attention to task difficulty and proficiency.},
+  abstract     = {Metacognition monitoring is the ability to evaluate the cognitive process actively. L2 learners with high metacognition monitoring ability can better monitor reading processes and outcomes consciously, thus facilitating self-regulated learning and improving reading efficiency. Previous studies mostly used offline self-reports to examine the metacognition monitoring in static text reading by L2 learners. This study investigated the effects of different indicators of metacognition monitoring on L2 Chinese audiovisual comprehension by online confidence judgment and audiovisual comprehension tasks. Target measures of metacognition monitoring included absolute calibration accuracy based on video or test and relative calibration accuracy measured by Gamma or Spearman correlation coefficient. 38 intermediate-advanced Chinese learners participated in the study. Multiple regression analysis showed three main results. First, absolute calibration accuracy can significantly predict L2 Chinese audiovisual comprehension, while relative calibration accuracy has no significant effect. Second, the predictive effect of video-based absolute calibration accuracy is affected by the video difficulty, that is, the greater the video difficulty, the greater the impact on the performance of audiovisual comprehension. Third, the predictive effect of test-based absolute calibration accuracy is influenced by the language proficiency, specifically, the higher the L2 Chinese proficiency, the stronger the prediction on the performance of audiovisual comprehension. These results support a multidimensional view of metacognition monitoring by specifying how different indicators of metacognition monitoring may predict L2 Chinese audiovisual comprehension. The findings have important pedagogical implications for strategy training of metacognition monitoring and point to the necessity to take task difficulty and individual differences among learners into full consideration.},
   preview      = {pub-wang-2023-metacognition.png},
   html         = {https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1133003/full},
   pdf          = {https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1133003/pdf}
