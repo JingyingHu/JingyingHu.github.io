@@ -7,6 +7,16 @@ nav: true
 nav_order: 2
 ---
 
+<style>
+  .bibliography .author em,
+  .bibliography .authors em {
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+  }
+</style>
+
 {% include bib_search.liquid %}
 
 {% bibliography %}
