@@ -41,7 +41,7 @@ latest_posts:
     max-width: 100%;
   }
   .research-tags {
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
     font-size: 1.05rem;
     font-weight: 500;
     margin: 0.2rem 0 1rem;
@@ -58,10 +58,10 @@ latest_posts:
 
 <p class="research-tags">Psycholinguist · Computational Linguist · NLP/LLM Researcher</p>
 
-Hi! I'm a fourth-year Ph.D. student in Linguistics at Purdue University, with joint M.S. training in Statistics and Computer Science. I am fortunate to be co-advised by [Prof. Elaine J. Francis](https://cla.purdue.edu/english/francislab/people/) and [Prof. Yan Cong](https://yancong222.github.io/).
+Hi! I'm a fourth-year Ph.D. student in Linguistics at Purdue University, with joint M.S. training in Statistics and Computer Science. I am fortunate to be co-advised by [Prof. Elaine J. Francis](https://cla.purdue.edu/english/francislab/people/) in the [Purdue Experimental Linguistics (ExLing) Lab](https://cla.purdue.edu/english/francislab/) and [Prof. Yan Cong](https://yancong222.github.io/) in the [Computation and Linguistic Meaning (CALM) Lab](https://yancong222.github.io/).
 
 My research combines psycholinguistic experiments and computational modeling to better understand how people comprehend and produce language in real time. My work focuses on how linguistic representations are processed, how individuals differ in language processing, and how speakers choose among competing syntactic structures. My dissertation investigates English relative clause extraposition from the information-theoretic perspective.
 
-I am also fascinated by the interplay between human language and language models. My work explores how language models can support linguistic research and language education, while linguistic theories can help us better understand, evaluate, and improve language models. Recent projects include developing robust, interpretable, and reproducible LLM-derived metrics for second language writing assessment with [Prof. Yan Cong](https://www.cla.purdue.edu/directory/profiles/yan-cong.html), and investigating whether large audio language models can use prosodic and semantic cues to resolve syntactic ambiguity with [Prof. Sayed Issa](https://www.cla.purdue.edu/directory/profiles/elsayed-issa.html).
+I am also fascinated by the interplay between human language and language models. My work explores how language models can support linguistic research and language education, while linguistic theories can help us better understand, evaluate, and improve language models. Recent projects include developing robust, interpretable, and reproducible LLM-derived metrics for second language writing assessment with [Prof. Yan Cong](https://www.cla.purdue.edu/directory/profiles/yan-cong.html), and investigating whether large audio language models can use prosodic and semantic cues to resolve syntactic ambiguity with [Prof. Sayed Issa](https://www.cla.purdue.edu/directory/profiles/elsayed-issa.html) in the [Computational Linguistics at Purdue (CL@P) Lab](https://www.cla.purdue.edu/research/clai/index.html).
 
 Feel free to reach me at hu880 at purdue dot edu if you’d like to connect, discuss my work, or explore potential collaborations. I will be on the 2026–2027 job market and am open to any new opportunities.
