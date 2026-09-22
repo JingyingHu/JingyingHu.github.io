@@ -25,8 +25,8 @@
 
 /* Purdue-inspired palette and site-specific component styling. */
 :root {
-  --global-theme-color: #8e6f3e;
-  --global-hover-color: #6f552f;
+  --global-theme-color: #6b4f1d;
+  --global-hover-color: #4f3915;
   --global-hover-text-color: #ffffff;
 }
 
@@ -36,12 +36,21 @@ html[data-theme="dark"] {
   --global-hover-text-color: #000000;
 }
 
+.news::before {
+  display: block;
+  width: 3.5rem;
+  height: 3px;
+  margin-bottom: 0.8rem;
+  background: var(--global-theme-color);
+  content: "";
+}
+
 .news .table-responsive {
   overflow-x: hidden;
-  padding: 1rem 1.25rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-  background: var(--global-card-bg-color);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 .news table {
@@ -51,14 +60,19 @@ html[data-theme="dark"] {
 
 .news tr {
   display: grid;
-  grid-template-columns: minmax(8.5rem, 20%) minmax(0, 1fr);
-  gap: 1rem;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  gap: 1.25rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.news tr:last-child {
+  border-bottom: 0;
 }
 
 .news th,
 .news td {
   width: auto !important;
-  padding: 0.85rem 0.25rem;
+  padding: 1rem 0;
   border: 0;
   vertical-align: top;
 }
@@ -74,10 +88,6 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 576px) {
-  .news .table-responsive {
-    padding: 0.75rem 1rem;
-  }
-
   .news tr {
     grid-template-columns: 1fr;
     gap: 0;
