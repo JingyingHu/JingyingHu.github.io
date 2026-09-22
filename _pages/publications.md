@@ -114,7 +114,7 @@ nav_order: 2
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('.bibliography .links a[href*="openreview.net/forum?id=JnbJwiJxSQ"]').forEach(function (link) {
+    document.querySelectorAll('.bibliography .links a[href*="openreview.net/"][href*="JnbJwiJxSQ"]').forEach(function (link) {
       link.textContent = "Paper";
     });
 
@@ -123,6 +123,8 @@ nav_order: 2
     });
 
     document.querySelectorAll(".bibliography a.abstract").forEach(function (button) {
+      button.textContent = "TL;DR";
+
       button.addEventListener("click", function (event) {
         event.preventDefault();
         var target = button.parentElement.nextElementSibling;
