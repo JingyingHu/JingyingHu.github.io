@@ -22,7 +22,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page if marked as "selected={true}"
 
 announcements:
-  enabled: false # news is maintained directly below in this file
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -65,20 +65,3 @@ My research combines psycholinguistic experiments and computational modeling to 
 I am also fascinated by the interplay between human language and language models. My work explores how language models can support linguistic research and language education, while linguistic theories can help us better understand, evaluate, and improve language models. Recent projects include developing robust, interpretable, and reproducible LLM-derived metrics for second language writing assessment with [Prof. Yan Cong](https://www.cla.purdue.edu/directory/profiles/yan-cong.html), and investigating whether large audio language models can use prosodic and semantic cues to resolve syntactic ambiguity with [Prof. Elsayed Issa](https://www.cla.purdue.edu/directory/profiles/elsayed-issa.html) in the [Computational Linguistics at Purdue (CL@P) Lab](https://www.cla.purdue.edu/research/clai/index.html).
 
 Feel free to reach me at hu880 at purdue dot edu if you’d like to connect, discuss my work, or explore potential collaborations. I will be on the 2026–2027 job market and am open to any new opportunities.
-
-<h2 class="home-news-heading">news</h2>
-
-<ul class="home-news">
-  <li>
-    <time datetime="2026-08-07">[2026/08/07]</time>
-    <span>Our paper was accepted by <a href="https://colmweb.org/index.html">COLM</a>. We investigated whether Large Audio Language Models use prosodic and semantic cues to resolve relative clause attachment ambiguity across English, Chinese, and Arabic. If you will be at COLM, come say hi in San Francisco this October!</span>
-  </li>
-  <li>
-    <time datetime="2026-07-20">[2026/07/20]</time>
-    <span>Our paper, <em>LLM-derived metrics in second language writing assessment: An explainable AI approach</em>, was accepted by <em>Computers &amp; Education</em>.</span>
-  </li>
-  <li>
-    <time datetime="2026-04-10">[2026/04/10]</time>
-    <span>I am honored to receive the Bilsland Dissertation Fellowship, which will support my dissertation research on English relative clause extraposition.</span>
-  </li>
-</ul>
