@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper was accepted by [COLM](https://colmweb.org/index.html). We investigated whether Large Audio Language Models use prosodic and semantic cues to resolve relative clause attachment ambiguity across English, Chinese, and Arabic. If you will be at COLM, come say hi in San Francisco this October!
+[Where Does the Relative Clause Attach? Probing Prosodic and Semantic Sensitivity in Large Audio Language Models](https://openreview.net/pdf?id=JnbJwiJxSQ) accepted to [COLM 2026](https://colmweb.org/index.html). See you in San Francisco this October🌉!
