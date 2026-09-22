@@ -97,14 +97,31 @@ nav_order: 2
   .bibliography .links a[href*="frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1133003/full"] {
     display: none;
   }
+
+  .publication-note {
+    margin: 0.25rem 0 2rem;
+    color: var(--global-text-color-light);
+  }
 </style>
 
-{% include bib_search.liquid %}
+<p class="publication-note">
+  See my
+  <a href="https://scholar.google.com/citations?user=APa8s6gAAAAJ&hl=en&authuser=1">Google Scholar profile</a>
+  for a complete and up-to-date publication list.
+</p>
 
 {% bibliography %}
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('.bibliography .links a[href*="openreview.net/forum?id=JnbJwiJxSQ"]').forEach(function (link) {
+      link.textContent = "Paper";
+    });
+
+    document.querySelectorAll('.bibliography .links a[href*="huggingface.co/datasets/clap-purdue/MultiWhoAudio"]').forEach(function (link) {
+      link.textContent = "Dataset";
+    });
+
     document.querySelectorAll(".bibliography a.abstract").forEach(function (button) {
       button.addEventListener("click", function (event) {
         event.preventDefault();
