@@ -87,6 +87,10 @@ html[data-theme="dark"] {
   margin-bottom: 0;
 }
 
+.news a em {
+  color: inherit;
+}
+
 @media (max-width: 576px) {
   .news tr {
     grid-template-columns: 1fr;
