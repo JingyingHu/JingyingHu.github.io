@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Where Does the Relative Clause Attach? Probing Prosodic and Semantic Sensitivity in Large Audio Language Models](https://openreview.net/pdf?id=JnbJwiJxSQ) accepted to [COLM 2026](https://colmweb.org/index.html). See you in San Francisco this October🌉!
+Our [paper on prosodic and semantic sensitivity in large audio language models](https://openreview.net/forum?id=JnbJwiJxSQ) was accepted to [COLM 2026](https://colmweb.org/). See you in San Francisco this October! 🌉
