@@ -115,7 +115,7 @@ nav_order: 2
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll('.bibliography .links a[href*="openreview.net/"][href*="JnbJwiJxSQ"]').forEach(function (link) {
-      link.textContent = "Paper";
+      link.textContent = "OpenReview";
     });
 
     document.querySelectorAll('.bibliography .links a[href*="huggingface.co/datasets/clap-purdue/MultiWhoAudio"]').forEach(function (link) {
