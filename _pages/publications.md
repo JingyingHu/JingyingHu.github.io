@@ -47,6 +47,23 @@ nav_order: 2
     line-height: 1.4;
   }
 
+  .publication-meta-note,
+  .equal-contribution-note {
+    color: #8e6f3e;
+    font-size: 0.78rem;
+    line-height: 1.35;
+  }
+
+  .publication-meta-note {
+    display: block;
+    margin-top: 0.12rem;
+  }
+
+  .equal-contribution-note {
+    margin-left: 0.35rem;
+    white-space: nowrap;
+  }
+
   .bibliography .abbr figure {
     margin-bottom: 0;
     text-align: center;
@@ -135,6 +152,28 @@ nav_order: 2
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    var colmEntry = document.querySelector("#hu2026relative");
+    if (colmEntry) {
+      var colmPeriodical = colmEntry.querySelector(".periodical");
+      if (colmPeriodical) {
+        var acceptanceNote = document.createElement("span");
+        acceptanceNote.className = "publication-meta-note";
+        acceptanceNote.textContent = "Acceptance rate: 29% (854 out of 2,939 submissions)";
+        colmPeriodical.insertAdjacentElement("afterend", acceptanceNote);
+      }
+    }
+
+    var aimeEntry = document.querySelector("#osumi2026examining");
+    if (aimeEntry) {
+      var aimeAuthors = aimeEntry.querySelector(".author");
+      if (aimeAuthors) {
+        var equalContributionNote = document.createElement("span");
+        equalContributionNote.className = "equal-contribution-note";
+        equalContributionNote.textContent = "(* Equal contribution)";
+        aimeAuthors.appendChild(equalContributionNote);
+      }
+    }
+
     document.querySelectorAll('.bibliography .links a[href*="openreview.net/"][href*="JnbJwiJxSQ"]').forEach(function (link) {
       link.textContent = "OpenReview";
     });
