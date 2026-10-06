@@ -21,8 +21,8 @@ nav_order: 2
     font-size: 2.8rem;
     font-weight: 300;
     line-height: 1;
-    margin: 2.6rem 0 1.6rem;
-    padding-top: 1.25rem;
+    margin: 2.1rem 0 1.25rem;
+    padding-top: 1rem;
     text-align: right;
   }
 
@@ -32,11 +32,32 @@ nav_order: 2
   }
 
   ol.bibliography > li {
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.6rem;
   }
 
   .bibliography .title {
+    font-size: 1rem;
     font-weight: 600;
+    line-height: 1.35;
+  }
+
+  .bibliography .author,
+  .bibliography .periodical {
+    font-size: 0.92rem;
+    line-height: 1.4;
+  }
+
+  .bibliography .abbr figure {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .bibliography img.preview {
+    height: auto;
+    max-height: 6.5rem;
+    max-width: 100%;
+    object-fit: contain;
+    width: auto;
   }
 
   .bibliography .abbr abbr.badge {
@@ -57,7 +78,7 @@ nav_order: 2
   }
 
   .bibliography .links {
-    margin-top: 0.65rem;
+    margin-top: 0.45rem;
   }
 
   .bibliography .links a.btn {
@@ -120,6 +141,10 @@ nav_order: 2
 
     document.querySelectorAll('.bibliography .links a[href*="huggingface.co/datasets/clap-purdue/MultiWhoAudio"]').forEach(function (link) {
       link.textContent = "Dataset";
+    });
+
+    document.querySelectorAll('.bibliography .links a[href*="aclanthology.org/2026.aimecon-main.24/"]:not([href$=".pdf"])').forEach(function (link) {
+      link.textContent = "ACL Anthology";
     });
 
     document.querySelectorAll(".bibliography a.abstract").forEach(function (button) {
