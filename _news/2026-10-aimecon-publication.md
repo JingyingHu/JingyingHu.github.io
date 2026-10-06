@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our [AIME-Con 2026 paper](https://aclanthology.org/2026.aimecon-main.24/) is now available in the ACL Anthology! Extending our prior work on Chinese L2 writing, we show that LLM surprisal captures linguistic naturalness in L2 Japanese essays and supports automated essay scoring.
+Our [AIME-Con 2026 paper](https://aclanthology.org/2026.aimecon-main.24/) is now available! We show that LLM surprisal is an effective indicator of linguistic naturalness for automated L2 Japanese writing assessment.
