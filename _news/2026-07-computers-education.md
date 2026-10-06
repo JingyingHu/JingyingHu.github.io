@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on **scalable and interpretable LLM-derived metrics** for second language writing assessment was accepted to [_Computers & Education_](https://doi.org/10.1016/j.compedu.2026.105721).
+Our paper on [scalable and interpretable LLM-derived metrics](https://doi.org/10.1016/j.compedu.2026.105721) for second language writing assessment was accepted to [_Computers & Education_](https://doi.org/10.1016/j.compedu.2026.105721).

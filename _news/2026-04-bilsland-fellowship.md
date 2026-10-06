@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am honored to receive the Bilsland Dissertation Fellowship, which will support my dissertation research on English relative clause extraposition.
+My dissertation research on English relative clause extraposition is supported by Purdue’s [Bilsland Dissertation Fellowship](https://purdue.edu/academics/ogsps/fellowship/ogsps-fellowships/).
